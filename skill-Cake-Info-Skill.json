@@ -1,0 +1,1157 @@
+{
+  "intents": [
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "Make the order again"
+        },
+        {
+          "text": "Help me to create a new order"
+        },
+        {
+          "text": "I want to reorder"
+        },
+        {
+          "text": "I am ready to order now."
+        },
+        {
+          "text": "Where I can order?"
+        },
+        {
+          "text": "How do I go about placing an order with you?"
+        },
+        {
+          "text": "What are the methods to place an order?"
+        },
+        {
+          "text": "Purchase something new"
+        },
+        {
+          "text": "Ok order this for me"
+        }
+      ],
+      "description": "Place an order."
+    },
+    {
+      "intent": "hours_info",
+      "examples": [
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "Are you open on Sundays?"
+        },
+        {
+          "text": "What are your store timings ?"
+        },
+        {
+          "text": "When are you open"
+        },
+        {
+          "text": "When do you open"
+        },
+        {
+          "text": "what are you hours of operation in New York ?",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                35,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are the hours of operation for your atlanta store ?",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                41,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Are you open on Christmas' Day?"
+        },
+        {
+          "text": "When do you close"
+        },
+        {
+          "text": "What days are you closed on?"
+        },
+        {
+          "text": "Are you open on Saturdays?"
+        },
+        {
+          "text": "What time are you open until?"
+        },
+        {
+          "text": "What are your hours of operation?"
+        }
+      ]
+    },
+    {
+      "intent": "location_info",
+      "examples": [
+        {
+          "text": "List of location"
+        },
+        {
+          "text": "where is your Toronto store?",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                14,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What's the address of your America store?",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                27,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "do you have a chocolate shop in india ?",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                32,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "list of your locations"
+        },
+        {
+          "text": "Where are your stores?"
+        },
+        {
+          "text": "Where are you physically located?"
+        },
+        {
+          "text": "What are your locations?"
+        },
+        {
+          "text": "Give me a list of locations"
+        }
+      ]
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thankyou"
+        },
+        {
+          "text": "appreciate it"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Direct transfer"
+        },
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "Morning, can you tell me by what methods I can settle my monthly bill?"
+        },
+        {
+          "text": "Pay by email"
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "Update card"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "Change payment setup"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "Do you take discover?"
+        },
+        {
+          "text": "Hi, can I pay for the service by paypal?"
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "I need to add a new payment card"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "have a nice day"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "talk to you soon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I want to cancel the order"
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "I want a refund on the previous purchase I made."
+        },
+        {
+          "text": "I was charged for services that I don't subscribe to. how can I go about getting a refund"
+        },
+        {
+          "text": "I was overcharged on my last bill, I need that refunded."
+        },
+        {
+          "text": "My credit card was double charged for my last bill. how do I get the extra charge refunded to it?"
+        },
+        {
+          "text": "Refund my payment"
+        },
+        {
+          "text": "Where can I get refunds?"
+        },
+        {
+          "text": "Who do I have to speak to get a refund on one of my payments?"
+        },
+        {
+          "text": "I am unfairly charged. am I going to be refunded?"
+        },
+        {
+          "text": "Do I get a refund if I paid too much?"
+        },
+        {
+          "text": "Can I just have a full refund?"
+        },
+        {
+          "text": "Can I get my last month refunded due to the contract cancelation?"
+        },
+        {
+          "text": "Arrange refund"
+        },
+        {
+          "text": "Can you refund all payments?"
+        }
+      ],
+      "description": "Request a refund for a payment."
+    },
+    {
+      "intent": "abtbot",
+      "examples": [
+        {
+          "text": "what can i call you?"
+        },
+        {
+          "text": "what is your purpose ?"
+        },
+        {
+          "text": "what is your name ?"
+        },
+        {
+          "text": "who are you?"
+        },
+        {
+          "text": "What are you ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "product_info",
+      "examples": [
+        {
+          "text": "What is your cancellation policy?"
+        },
+        {
+          "text": "Can my florist or I put flowers on the cake?"
+        },
+        {
+          "text": "What is the shelf life for your cakes? And how do we keep them?"
+        },
+        {
+          "text": "How many servings does each cake provide?"
+        },
+        {
+          "text": "Are any of your cakes suitable for vegetarians, vegans or Muslims?"
+        },
+        {
+          "text": "How much do your custom and wedding cakes cost?"
+        },
+        {
+          "text": "Why hasn’t my cake risen?"
+        },
+        {
+          "text": "What is your minimum order quantity?"
+        },
+        {
+          "text": "I have special dietary requirements, can you bake for me?"
+        },
+        {
+          "text": "How much notice do you need to cater my upcoming event?"
+        },
+        {
+          "text": "What if I have food allergies?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "What's up"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "UserReply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "not at all",
+            "nope",
+            "not now",
+            "nah"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "ok",
+            "y",
+            "sure",
+            "yes please",
+            "please",
+            "okay",
+            "why not"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "London",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paris",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sydney",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nolocation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "New York",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toronto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "America",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "india",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "atlanta",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/17k91a05b8%40tkrcet.com_dev/default/Discovery%20action.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1590567063087",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1590567063132",
+      "previous_sibling": "handler_6_1590567063132"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1590567063087",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_6_1590567063132"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our Paris store is located at 53  rue Nationale,PARIS."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1590568371703",
+      "conditions": "$city:Paris",
+      "dialog_node": "response_9_1590568371703",
+      "previous_sibling": "response_6_1590568371703"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our London store is located at 14 Tottenham Court Road London."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1590568371703",
+      "conditions": "$city:London",
+      "dialog_node": "response_6_1590568371703",
+      "previous_sibling": "slot_3_1590568371703"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our Sydney store is located at 2455  Libby Street,Los Angeles,CA."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1590568371703",
+      "conditions": "$city:Sydney",
+      "dialog_node": "response_10_1590568371703",
+      "previous_sibling": "response_9_1590568371703"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1590568371703",
+      "variable": "$city",
+      "dialog_node": "slot_3_1590568371703"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1590568371703",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1590568371703",
+      "previous_sibling": "handler_4_1590568371703"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1590568371703",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_4_1590568371703"
+    },
+    {
+      "type": "standard",
+      "title": "If User reply is no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay,How can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591087427736",
+      "conditions": "@UserReply:no",
+      "dialog_node": "node_10_1591088025034",
+      "previous_sibling": "node_10_1591087948263"
+    },
+    {
+      "type": "standard",
+      "title": "If User reply is yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Transferring.Please wait..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591087427736",
+      "conditions": "@UserReply:yes",
+      "dialog_node": "node_10_1591087948263"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our Paris store is open Monday to Saturday from 8 am until 6 pm, except statutory holidays."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1590566986630",
+      "conditions": "$city:Paris",
+      "dialog_node": "response_8_1590567185271",
+      "previous_sibling": "response_2_1590567062372"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our Sydney store is open Monday to Saturday from 11 am until 6 pm, except statutory holidays."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1590566986630",
+      "conditions": "$city:Sydney",
+      "dialog_node": "response_2_1590567208598",
+      "previous_sibling": "response_8_1590567185271"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our london store is open Monday to Saturday from 9 am until 6 pm, except statutory holidays."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1590566986630",
+      "conditions": "$city:London",
+      "dialog_node": "response_2_1590567062372",
+      "previous_sibling": "slot_8_1590567063087"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1590566986630",
+      "variable": "$city",
+      "dialog_node": "slot_8_1590567063087"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Error No information found"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1590679621852",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1590679665605",
+      "previous_sibling": "response_8_1590679662428"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_1.results[0].text?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590679621852",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_8_1590679662428"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice talking to you today."
+              },
+              {
+                "text": "Have a nice day."
+              },
+              {
+                "text": "Goodbye."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590302765747",
+      "conditions": "#goodbyes",
+      "dialog_node": "node_6_1590302849404",
+      "previous_sibling": "node_10_1590302856710"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else."
+              },
+              {
+                "text": "My pleasure."
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590302765747",
+      "conditions": "#thank_you",
+      "dialog_node": "node_10_1590302856710",
+      "previous_sibling": "node_10_1590302842706"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there. How can I help you?"
+              },
+              {
+                "text": "Hello. How may I assist you today?"
+              },
+              {
+                "text": "Hi. What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590302765747",
+      "conditions": "#greetings",
+      "dialog_node": "node_10_1590302842706"
+    },
+    {
+      "type": "standard",
+      "title": "No store address information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unfortunately, we don’t have a store in @nolocation . To date, we have stores in London, Paris and Sydney.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1590568371696",
+      "conditions": "@nolocation",
+      "dialog_node": "node_11_1590568371703",
+      "previous_sibling": "node_2_1590568371703"
+    },
+    {
+      "type": "frame",
+      "title": "Our locations address information",
+      "output": {},
+      "parent": "node_1_1590568371696",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@location",
+      "dialog_node": "node_2_1590568371703"
+    },
+    {
+      "type": "standard",
+      "title": "No store hours information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unfortunately, we don’t have a store in @nolocation . To date, we have stores in London,Paris and Sydney.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1590566950820",
+      "conditions": "@nolocation",
+      "dialog_node": "node_10_1590566992297",
+      "previous_sibling": "node_2_1590566986630"
+    },
+    {
+      "type": "frame",
+      "title": "Our locations hours information",
+      "parent": "node_4_1590566950820",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@location",
+      "dialog_node": "node_2_1590566986630"
+    },
+    {
+      "type": "standard",
+      "title": "Customer Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like me to transfer you to our representative?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Cancel_Product_Order || #eCommerce_Refund_Payment",
+      "dialog_node": "node_3_1591087427736",
+      "previous_sibling": "node_10_1591088320667"
+    },
+    {
+      "type": "standard",
+      "title": "Ask about product",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#product_info",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1590679621852",
+      "previous_sibling": "node_1_1591699786855"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1591087427736",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Hours of operation",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#hours_info",
+      "dialog_node": "node_4_1590566950820",
+      "previous_sibling": "node_10_1590679621852"
+    },
+    {
+      "type": "standard",
+      "title": "About bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. My name is Nick and I'm a chatbot here to assist you with your questions about store hours, locations, as well as Cake recommendations."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#abtbot",
+      "dialog_node": "node_1_1591699786855",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Method of Payment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We accept all kinds of credit cards, debit cards  and cash on delivery.    "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Method_Of_Payment",
+      "dialog_node": "node_6_1591089603398",
+      "previous_sibling": "node_10_1590302765747"
+    },
+    {
+      "type": "folder",
+      "title": "basic chats",
+      "dialog_node": "node_10_1590302765747",
+      "previous_sibling": "node_1_1590568371696"
+    },
+    {
+      "type": "standard",
+      "title": "Location information",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#location_info",
+      "dialog_node": "node_1_1590568371696",
+      "previous_sibling": "node_4_1590566950820"
+    },
+    {
+      "type": "standard",
+      "title": "Placing an order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit our official website for details "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Create_Product_Order",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1591088320667",
+      "previous_sibling": "node_6_1591089603398"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there.How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Cake Info Skill",
+  "language": "en",
+  "description": ""
+}
